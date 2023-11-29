@@ -8,7 +8,7 @@ import java.util.List;
 
 @Component
 public class CarServiceImpl implements CarService {
-    List<Car> cars = Arrays.asList(
+    private List<Car> cars = Arrays.asList(
             new Car("BMW", "red", 150),
             new Car("VW", "blk", 100),
             new Car("NIS", "sil", 110),
